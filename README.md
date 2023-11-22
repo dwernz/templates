@@ -8,6 +8,12 @@ Assets such as photos should be put in the assets folder.
 
 The Return to Main button will be on all webpages, since each page should have a different template design, navbars will not be consistent.
 
+The main framework is React, and for styling, styled-components is used. This helps with any duplicate class names that may occur with multiple collaborators, and similar components.
+
+## Current collaborators
+
+Daniel Wernz
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
