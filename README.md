@@ -1,3 +1,13 @@
+# About
+
+This project is created to make template sites to show potential clients.
+
+Each new Route or template should be created in the routes folder, and then added to the App.js file.
+Components are individual parts of a webpage, such as buttons, inputs, tables, etc.
+Assets such as photos should be put in the assets folder.
+
+The Return to Main button will be on all webpages, since each page should have a different template design, navbars will not be consistent.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
