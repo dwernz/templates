@@ -10,3 +10,12 @@ export const ButtonsContainer = styled.div`
     margin: 5px;
   }
 `;
+
+export const MuhilanProductCard1Container = styled.div`
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0;
+`;
