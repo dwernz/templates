@@ -1,5 +1,5 @@
 import BootstrapButton from '../../components/buttons/bootstrap-button/bootstrap-button.component';
-import { ButtonsContainer, StyledButton } from './template.styles';
+import { ButtonsContainer } from './template.styles';
 
 const Template = () => {
     return (
