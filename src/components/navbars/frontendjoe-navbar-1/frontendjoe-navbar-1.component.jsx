@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { GlobalStyle, Navbar, NavbarBurger, NavbarMenu, NavbarOverlay, NavbarTitle } from './frontend-joe-navbar-1.styles';
+import { GlobalStyle, Navbar, NavbarBurger, NavbarMenu, NavbarOverlay, NavbarTitle } from './frontendjoe-navbar-1.styles';
 
 const FrontendJoeNavbar1 = () => {
     const [isOpen, setIsOpen] = useState(false);
