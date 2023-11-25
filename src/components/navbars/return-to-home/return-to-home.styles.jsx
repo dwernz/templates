@@ -1,18 +1,21 @@
 import styled from 'styled-components';
 
 export const ReturnToHomeContainer = styled.div`
-    background: whitesmoke;
-    border: 1px solid black;
-    margin: 2px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
+    position: fixed;
+    top: 95%;
+    right: 0;
+    opacity: 0.5;
+    margin-bottom: 15px;
+    margin-right: 15px;
+
+    &:hover {
+        opacity: 1;
+    }
 `;
 
 export const Link = styled.a`
     font-size: 1.25rem;
     text-decoration: none;
-    margin: 15px;
     color: white;
     padding: .375rem 0.75rem;
     font-weight: 400;

@@ -6,6 +6,8 @@ const Home = () => {
     return (
         <div>
             <a href='/template'>Template</a>
+            <br />
+            <a href='/myprofile'>My Profile</a>
 
             <h1>Button Examples</h1>
             <p>These were styled after Bootstrap, and includes their predefined button styled.</p>
