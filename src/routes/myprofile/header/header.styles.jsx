@@ -72,21 +72,6 @@ export const Language = styled.span`
     }
 `;
 
-export const ColMd9 = styled.div`
-    flex: 0 0 75%;
-    max-width: 75%;
-
-    @media (min-width: 992px) {
-        flex: 0 0 60%;
-        max-width: 60%;
-    }
-`;
-
-export const ColMd6 = styled.div`
-    flex: 0 0 50%;
-    max-width: 50%;s
-`;
-
 export const ImgResponsive = styled.img`
     max-width: 100%;
     height: auto;

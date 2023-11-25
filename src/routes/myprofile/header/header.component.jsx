@@ -1,9 +1,11 @@
 import profile from '../assets/images/profile-pic.jpg';
 import SocialIcon from '../social-icon/social-icon.component';
-import { ColMd6, ColMd9, HeaderContainer, ImgResponsive, Language, Name, NameSpan, NameWrapper, PersonalDetails, ProfileImg } from './header.styles';
-import ColMd3 from '../colMd3/colMd3.component';
-import Container from '../container/container.component';
-import Row from '../row/row.component';
+import { HeaderContainer, ImgResponsive, Language, Name, NameSpan, NameWrapper, PersonalDetails, ProfileImg } from './header.styles';
+import ColMd3 from '../../../components/bootstrap/colMd3/colMd3.component';
+import ColMd6 from '../../../components/bootstrap/colMd6/colMd6.component';
+import ColMd9 from '../../../components/bootstrap/colMd9/colMd9.component';
+import Container from '../../../components/bootstrap/container/container.component';
+import Row from '../../../components/bootstrap/row/row.component';
 
 const Header = ({ name, title, birthday, nationality, languages, text }) => {
     return (
