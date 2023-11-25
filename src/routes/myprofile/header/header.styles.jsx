@@ -60,37 +60,35 @@ export const PersonalDetails = styled.div`
     }
 `;
 
-export const SocialIcon = styled.ul`
-    margin: 20px 0;
-    padding: 0;
-    display: block;
-
-    li {
-        display: inline-block;
-        margin: 0 2px;
-
-        a {
-            display: block;
-            font-size: 12px;
-            color: #333333;
-            width: 34px;
-            height: 34px;
-            line-height: 33px;
-            text-align: center;
-            border-radius: 2px;
-            border: 2px solid #eeeeee;
-
-            &:hover {
-                border-color: #cccccc;
-            }
-        }
-    }
-`;
-
 export const Language = styled.span`
     display: inline-block;
 
     strong {
-        display: inline-block;
+        display: inline;
     }
+
+    span {
+        display: inline;
+    }
+`;
+
+export const ColMd9 = styled.div`
+    flex: 0 0 75%;
+    max-width: 75%;
+
+    @media (min-width: 992px) {
+        flex: 0 0 60%;
+        max-width: 60%;
+    }
+`;
+
+export const ColMd6 = styled.div`
+    flex: 0 0 50%;
+    max-width: 50%;s
+`;
+
+export const ImgResponsive = styled.img`
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
 `;

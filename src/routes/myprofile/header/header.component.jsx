@@ -1,38 +1,42 @@
-import profile from '../images/img-profile.jpg';
-import { HeaderContainer, Language, Name, NameSpan, NameWrapper, PersonalDetails, ProfileImg, SocialIcon } from './header.styles';
+import profile from '../assets/images/profile-pic.jpg';
+import SocialIcon from '../social-icon/social-icon.component';
+import { ColMd6, ColMd9, HeaderContainer, ImgResponsive, Language, Name, NameSpan, NameWrapper, PersonalDetails, ProfileImg } from './header.styles';
+import ColMd3 from '../colMd3/colMd3.component';
+import Container from '../container/container.component';
+import Row from '../row/row.component';
 
-const Header = ({ name, title, birthday, nationality, languages }) => {
+const Header = ({ name, title, birthday, nationality, languages, text }) => {
     return (
         <HeaderContainer>
-            <div className="container">
-                <div className="row">
-                    <div className='col-md-3'>
+            <Container>
+                <Row>
+                    <ColMd3>
                         <ProfileImg>
-                            <img src={profile}  className="img-responsive" alt="" />
+                            <ImgResponsive src={profile} alt="" />
                         </ProfileImg>
-                    </div>
-                    <div className='col-md-9'>
+                    </ColMd3>
+                    <ColMd9>
                         <NameWrapper>
-                            <Name className='name'>{name}</Name>
+                            <Name>{name}</Name>
                             <NameSpan>{title}</NameSpan>
                         </NameWrapper>
                         <p>
-                            Credibly embrace visionary internal or "organic" sources and business benefits. Collaboratively integrate efficient portals rather than customized customer service. Assertively deliver frictionless services via leveraged interfaces. Conveniently evisculate accurate sources and process-centric expertise.Energistically fabricate customized imperatives through cooperative catalysts for change.
+                            {text}
                         </p>
-                        <div className='row'>
-                            <div className='col-md-3'>
+                        <Row>
+                            <ColMd3>
                                 <PersonalDetails>
                                     <strong>{birthday}</strong>
                                     <small>BIRTH</small>
                                 </PersonalDetails>
-                            </div>
-                            <div className='col-md-3'>
+                            </ColMd3>
+                            <ColMd3>
                                 <PersonalDetails>
                                     <strong>{nationality}</strong>
                                     <small>NATIONALITY</small>
                                 </PersonalDetails>
-                            </div>
-                            <div className='col-md-6'>
+                            </ColMd3>
+                            <ColMd6>
                                 <PersonalDetails>
                                     {languages.slice(0, -1).map((language, index) => (
                                         <Language>
@@ -46,39 +50,12 @@ const Header = ({ name, title, birthday, nationality, languages }) => {
                                         </Language>
                                     )}
                                 </PersonalDetails>
-                            </div>
-                        </div>
-
-                        <SocialIcon>
-                            <li>
-                                <a href='#'>
-                                    <i className="fa-brands fa-facebook"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='#'>
-                                    <i className="fa-brands fa-x-twitter"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='#'>
-                                    <i className="fa-brands fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='#'>
-                                    <i className="fa-brands fa-slack"></i>
-                                </a>
-                            </li>
-                            <li>
-                                <a href='#'>
-                                    <i className="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                        </SocialIcon>
-                    </div>
-                </div>
-            </div>
+                            </ColMd6>
+                        </Row>
+                        <SocialIcon />
+                    </ColMd9>
+                </Row>
+            </Container>
         </HeaderContainer>
     )
 }
