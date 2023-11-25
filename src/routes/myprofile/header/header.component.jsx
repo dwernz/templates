@@ -41,7 +41,7 @@ const Header = ({ name, title, birthday, nationality, languages, text }) => {
                             <ColMd6>
                                 <PersonalDetails>
                                     {languages.slice(0, -1).map((language, index) => (
-                                        <Language>
+                                        <Language key={index}>
                                             <strong>{language.language}</strong> <span>({language.proficiency})</span>
                                             {index !== languages.length - 1 && ', '} &nbsp;
                                         </Language>

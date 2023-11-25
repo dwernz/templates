@@ -18,8 +18,8 @@ const MyActivity = ({title, data}) => {
                     <ColMd9>
                         <Row>
                             {
-                                data.map((itemStats) => (        
-                                    <ColSm3>
+                                data.map((itemStats, index) => (        
+                                    <ColSm3 key={index}>
                                         <ItemStats>
                                             <ItemStatsValue>{itemStats.ItemStatsValue}</ItemStatsValue>
                                             <ItemStatsName>{itemStats.ItemStatsName}</ItemStatsName>

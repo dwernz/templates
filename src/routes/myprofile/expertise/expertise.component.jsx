@@ -18,8 +18,8 @@ const Expertise = ({data}) => {
                 <ColMd9>
                     <Row>
                         {
-                            data.map((itemInfo) => (
-                                <ColMd6>
+                            data.map((itemInfo, index) => (
+                                <ColMd6 key={index}>
                                     <ExpertiseItem>
                                         <h3>{itemInfo.skill}</h3>
                                         <p>{itemInfo.text}</p>
