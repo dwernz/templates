@@ -1,7 +1,9 @@
 import Header from "./header/header.component";
 import { GlobalStyle, MainWrapper } from "./myprofile.styles";
-import { profile } from './assets/data/profile.js';
+import { profile, myActivityData, workHistoryData, expertiseData } from './assets/data/profile.js';
 import Section from "./section/section.component.jsx";
+import MyActivity from "./my-activity/my-activity.component.jsx";
+import Expertise from "./expertise/expertise.component.jsx";
 
 const MyProfile = () => {
     const {name, title, birthday, nationality, languages, text } = profile;
@@ -16,7 +18,15 @@ const MyProfile = () => {
                 birthday={birthday}
                 nationality={nationality} 
                 languages={languages} />
-            <Section />
+            <Section>
+                <MyActivity title='My Activity' data={myActivityData} />
+            </Section>
+            <Section>
+                <MyActivity title='Work History' data={workHistoryData} />
+            </Section>
+            <Section>
+                <Expertise data={expertiseData} />
+            </Section>
         </MainWrapper>
     )
 }
