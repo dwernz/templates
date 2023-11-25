@@ -5,6 +5,7 @@ import './App.css';
 import Home from './routes/home/home.component';
 import Template from './routes/template/template.component';
 import ReturnToHome from './components/navbars/return-to-home/return-to-home.component';
+import MyProfile from './routes/myprofile/myprofile.component';
 
 const App = () => {
   return (
@@ -18,8 +19,8 @@ const App = () => {
             path is the subroute
             element is the page's component.
           */}
-           <Route path='template' element={<Template />} />
-          
+          <Route path='template' element={<Template />} />
+          <Route path='myprofile' element={<MyProfile />} />
           
 
 
