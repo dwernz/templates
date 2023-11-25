@@ -11,3 +11,36 @@ export const profile = {
         { language: 'French', proficiency: 'basic'},
     ],
 }
+
+export const myActivityData = [
+    {ItemStatsValue: '100%', ItemStatsName: 'Job Success'},
+    {ItemStatsValue: '96%', ItemStatsName: 'On Budget'},
+    {ItemStatsValue: '99%', ItemStatsName: 'On Time'},
+    {ItemStatsValue: '89%', ItemStatsName: 'Repeat Hire Rate'},
+]
+
+export const workHistoryData = [
+    {ItemStatsValue: '15096', ItemStatsName: 'hours worked'},
+    {ItemStatsValue: '687', ItemStatsName: 'Work Done'},
+    {ItemStatsValue: '30', ItemStatsName: 'Hours weekly Available'},
+    {ItemStatsValue: '24', ItemStatsName: 'Hour Response Time'},
+]
+
+export const expertiseData = [
+    {
+        skill: 'Word Press Theme Development',
+        text: 'Synergistically strategize customer directed resources rather than principle.'
+    },
+    {
+        skill: 'Joomla Template Development',
+        text: 'Quickly repurpose reliable customer service with orthogonal ideas. Competently.'
+    },
+    {
+        skill: 'Drupal Template Development',
+        text: 'Interactively myocardinate high standards in initiatives rather than next-generation.'
+    },
+    {
+        skill: 'Shopify Theme Design',
+        text: 'Dynamically initiate client-based convergence vis-a-vis performance based.'
+    },
+]
