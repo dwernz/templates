@@ -43,4 +43,42 @@ export const expertiseData = [
         skill: 'Shopify Theme Design',
         text: 'Dynamically initiate client-based convergence vis-a-vis performance based.'
     },
+];
+
+export const codingSkillsData = [
+    {
+        skill: "HTML5",
+        progress: 62
+    },
+    {
+        skill: "CSS3",
+        progress: 90
+    },
+    {
+        skill: "PHP",
+        progress: 75
+    },
+    {
+        skill: "JavaScript",
+        progress: 55
+    }
+];
+
+export const designToolsData = [
+    {
+        skill: "Photoshop",
+        progress: 90
+    },
+    {
+        skill: "Illustrator",
+        progress: 50
+    },
+    {
+        skill: "Sketch",
+        progress: 75
+    },
+    {
+        skill: "MACAW",
+        progress: 55
+    }
 ]

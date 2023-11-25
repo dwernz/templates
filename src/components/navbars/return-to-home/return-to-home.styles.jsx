@@ -7,6 +7,7 @@ export const ReturnToHomeContainer = styled.div`
     opacity: 0.5;
     margin-bottom: 15px;
     margin-right: 15px;
+    z-index: 100000;
 
     &:hover {
         opacity: 1;
