@@ -9,3 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         color: ${textColor};
     }
 `;
+
+export const Filler = styled.div`
+
+`;
