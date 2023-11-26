@@ -1,6 +1,6 @@
 import Header from "./header/header.component";
 import { GlobalStyle, MainWrapper } from "./myprofile.styles";
-import { profile, myActivityData, workHistoryData, expertiseData, codingSkillsData, designToolsData, educationData, experienceData } from './assets/data/profile.js';
+import { profile, myActivityData, workHistoryData, expertiseData, codingSkillsData, designToolsData, experienceData } from './assets/data/profile.js';
 import Section from "./section/section.component.jsx";
 import MyActivity from "./my-activity/my-activity.component.jsx";
 import Expertise from "./expertise/expertise.component.jsx";

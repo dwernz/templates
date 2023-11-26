@@ -6,8 +6,7 @@ const ProgressItemContainer = ({skill, progress}) => {
             <ProgressTitle>{skill}</ProgressTitle>
             <Progress>
                 <ProgressBar 
-                    role="progressbar" 
-                    aria-valuenow={`${progress}`}
+                    role="progressbar"
                     aria-valuemin='0' 
                     aria-valuemax='100' 
                     style={{width: `${progress}%`}} >
