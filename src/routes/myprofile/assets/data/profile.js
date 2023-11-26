@@ -82,3 +82,57 @@ export const designToolsData = [
         progress: 55
     }
 ]
+
+export const experienceData = [
+    {
+        dates: "2015 - Present",
+        title: "Senior Developer",
+        company: "Computer & Motor Ltd.",
+        location: "United Kingdom, London"
+    },
+    {
+        dates: "2012 - 2015",
+        title: "Web Designer",
+        company: "BizzNiss",
+        location: "United Kingdom, London"
+    },
+    {
+        dates: "2012 - 2015",
+        title: "Web Developer",
+        company: "Unique Soft",
+        location: "United Kingdom, London"
+    },
+    {
+        dates: "2010 - 2012",
+        title: "Front-end Developer",
+        company: "Samson LLC",
+        location: "United Kingdom, London"
+    },
+    {
+        dates: "2010 - 2012",
+        title: "Coder",
+        company: "Samson LLC",
+        location: "United Kingdom, London"
+    },
+];
+
+export const educationData = [
+    {
+        dates: "2010-2012",
+        title: "Ma Product Design",
+        company: "University of California",
+        location: "United Kingdom, London"
+    },
+    {
+        dates: "2007 - 2010",
+        title: "Business Marketing Course",
+        company: "Royal Academy of Business",
+        location: "United Kingdom, London"
+    },
+    {
+        dates: "2002 - 2006",
+        title: "BA (Hons) Design",
+        company: "University of Michigan",
+        location: "United Kingdom, London"
+    }
+];

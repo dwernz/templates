@@ -1,9 +1,10 @@
 import Header from "./header/header.component";
 import { GlobalStyle, MainWrapper } from "./myprofile.styles";
-import { profile, myActivityData, workHistoryData, expertiseData, codingSkillsData, designToolsData } from './assets/data/profile.js';
+import { profile, myActivityData, workHistoryData, expertiseData, codingSkillsData, designToolsData, educationData, experienceData } from './assets/data/profile.js';
 import Section from "./section/section.component.jsx";
 import MyActivity from "./my-activity/my-activity.component.jsx";
 import Expertise from "./expertise/expertise.component.jsx";
+import Experience from './experience/experience.component.jsx';
 import Skills from "./skills/skills.component.jsx";
 
 const MyProfile = () => {
@@ -30,6 +31,9 @@ const MyProfile = () => {
             </Section>
             <Section>
                 <Skills codingSkillsData={codingSkillsData} designToolsData={designToolsData} />
+            </Section>
+            <Section>
+                <Experience experienceData={experienceData} />
             </Section>
         </MainWrapper>
     )
