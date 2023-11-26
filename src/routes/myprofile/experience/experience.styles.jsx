@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Row from '../../../components/bootstrap/row/row.component';
 
 export const ContentItem = styled.div`
     margin-bottom: 40px;

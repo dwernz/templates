@@ -21,9 +21,6 @@ const Experience = ({ experienceData }) => {
         row = [];
     }
 
-    console.log(rowArray);
-
-
     return (
         <Container>
             <Row>
@@ -35,8 +32,8 @@ const Experience = ({ experienceData }) => {
                 <ColMd9>
 
                     {
-                        rowArray.map((row) => (
-                            <Row>
+                        rowArray.map((row, index) => (
+                            <Row key={index}>
                                 <ColMd6>
                                     <ContentItem>
                                         <small>{row[0].dates}</small>
