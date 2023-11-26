@@ -108,12 +108,6 @@ export const experienceData = [
         company: "Samson LLC",
         location: "United Kingdom, London"
     },
-    {
-        dates: "2010 - 2012",
-        title: "Coder",
-        company: "Samson LLC",
-        location: "United Kingdom, London"
-    },
 ];
 
 export const educationData = [
