@@ -20,7 +20,7 @@ const Education = ({data}) => {
                         <ColMd12>
                             {
                                 data.map((education) => (
-                                    <ContentItem>
+                                    <ContentItem key={education.company}>
                                         <small>{education.dates}</small>
                                         <h3>{education.title}</h3>
                                         <h4>{education.company}</h4>

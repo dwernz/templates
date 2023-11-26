@@ -130,3 +130,30 @@ export const educationData = [
         location: "United Kingdom, London"
     }
 ];
+
+export const marketplaceData = [
+    {
+        link: 'https://www.google.com',
+        img: 'm-logo-studio.png',
+        title: 'ENVATO STUDIO',
+        text: 'Seamlessly formulate covalent outsourcing vis-a-vis virtual resources. Distinctively conceptualize.'
+    },
+    {
+        link: 'https://www.google.com',
+        img: 'm-logo-freelancer.png',
+        title: 'Freelancer',
+        text: 'Seamlessly formulate covalent outsourcing vis-a-vis virtual resources. Distinctively conceptualize.'
+    },
+    {
+        link: 'https://www.google.com',
+        img: 'm-logo-upwork.png',
+        title: 'Upwork',
+        text: 'Seamlessly formulate covalent outsourcing vis-a-vis virtual resources. Distinctively conceptualize.'
+    },
+    {
+        link: 'https://www.google.com',
+        img: 'm-logo-peopleperhour.png',
+        title: 'Peopleperhour',
+        text: 'Seamlessly formulate covalent outsourcing vis-a-vis virtual resources. Distinctively conceptualize.'
+    }
+]
