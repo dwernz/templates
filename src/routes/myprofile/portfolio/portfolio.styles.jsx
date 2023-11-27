@@ -48,7 +48,6 @@ export const PortfolioThumb = styled.div`
 export const PortfolioInfo = styled.div`
     position: absolute;
     padding: 15px 15px 5px;
-    
     bottom: 0;
     z-index: 1;
     background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.5) 100%);
@@ -64,5 +63,6 @@ export const PortfolioInfo = styled.div`
 
     small {
         color: rgba(255, 255, 255, 0.5);
+        width: 100%;
     }
 `;

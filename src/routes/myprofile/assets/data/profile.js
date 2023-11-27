@@ -190,3 +190,41 @@ export const portfolioData = [
         domain: 'domain.com'
     },
 ];
+
+export const reviewsData = [
+    {
+        image: 'img-testimonial-2.jpg',
+        username: 'Sofia Voight',
+        dataStarRating: '5.0',
+        ratingProgress: 'rate-5',
+        text: `Seamlessly leverage other's transparent resources after resource maximizing channels. Continually grow economically sound collaboration and idea-sharing and compelling technology. Collaboratively unleash.`
+    },
+    {
+        image: 'img-testimonial-1.jpg',
+        username: 'Matteo Muller',
+        dataStarRating: '4.0',
+        ratingProgress: 'rate-4',
+        text: `Uniquely target empowered relationships after client-based e-commerce. Energistically morph worldwide resources for future-proof content. Authoritatively transform granular users whereas intermandated applications.`
+    },
+    {
+        image: 'img-testimonial-3.jpg',
+        username: 'Noel Schulze',
+        dataStarRating: '3.0',
+        ratingProgress: 'rate-3',
+        text: `Enthusiastically mesh an expanded array of infrastructures through distinctive customer service. Distinctively reintermediate e-business information vis-a-vis excellent networks. Uniquely fabricate just.`
+    },
+    {
+        image: 'unknown.png',
+        username: 'Jason Lehmann',
+        dataStarRating: '2.0',
+        ratingProgress: 'rate-2',
+        text: `Proactively network unique potentialities rather than one-to-one process improvements. Dynamically leverage existing progressive methods of empowerment rather than efficient functionalities. Continually.`
+    },
+    {
+        image: 'unknown.png',
+        username: 'John Green',
+        dataStarRating: '1.0',
+        ratingProgress: 'rate-1',
+        text: `Progressively leverage existing 24/7 paradigms through exceptional process improvements. Completely revolutionize compelling architectures for team driven partnerships. Quickly transform focused value.`
+    },
+];
