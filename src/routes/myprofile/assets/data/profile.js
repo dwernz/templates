@@ -28,19 +28,19 @@ export const workHistoryData = [
 
 export const expertiseData = [
     {
-        skill: 'Word Press Theme Development',
+        skill: 'Web Development',
         text: 'Synergistically strategize customer directed resources rather than principle.'
     },
     {
-        skill: 'Joomla Template Development',
+        skill: 'Template Creation/Modification',
         text: 'Quickly repurpose reliable customer service with orthogonal ideas. Competently.'
     },
     {
-        skill: 'Drupal Template Development',
+        skill: 'Web Hosting',
         text: 'Interactively myocardinate high standards in initiatives rather than next-generation.'
     },
     {
-        skill: 'Shopify Theme Design',
+        skill: 'Website Maintenance',
         text: 'Dynamically initiate client-based convergence vis-a-vis performance based.'
     },
 ];
@@ -85,49 +85,49 @@ export const designToolsData = [
 
 export const experienceData = [
     {
-        dates: "2015 - Present",
-        title: "Senior Developer",
-        company: "Computer & Motor Ltd.",
-        location: "United Kingdom, London"
-    },
-    {
-        dates: "2012 - 2015",
-        title: "Web Designer",
-        company: "BizzNiss",
-        location: "United Kingdom, London"
-    },
-    {
-        dates: "2012 - 2015",
+        dates: "2023 - Present",
         title: "Web Developer",
-        company: "Unique Soft",
-        location: "United Kingdom, London"
+        company: "Freelance",
+        location: "Remote"
     },
     {
-        dates: "2010 - 2012",
-        title: "Front-end Developer",
-        company: "Samson LLC",
-        location: "United Kingdom, London"
+        dates: "2023 - 23023",
+        title: "Office Assistant",
+        company: "Itani Medical",
+        location: "Titusville, FL"
+    },
+    {
+        dates: "2022-2022",
+        title: "Executive Recruiter",
+        company: "LHH",
+        location: "Remote"
+    },
+    {
+        dates: "2017-2019",
+        title: "Junior Chef Apprentice",
+        company: "The Greenbrier Resort",
+        location: "White Sulphur Springs, WV"
     },
 ];
 
 export const educationData = [
     {
-        dates: "2010-2012",
-        title: "Ma Product Design",
-        company: "University of California",
-        location: "United Kingdom, London"
+        dates: "2021-2021",
+        title: "BAS Computer Information Systems Technology",
+        company: "Eastern Florida State College",
+        location: "Cocoa, FL"
     },
     {
-        dates: "2007 - 2010",
-        title: "Business Marketing Course",
-        company: "Royal Academy of Business",
-        location: "United Kingdom, London"
+        dates: "2020 - 2020",
+        title: "AS Computer Programming and Analysis",
+        company: "Eastern Florida State College",
+        location: "Cocoa, FL"
     },
     {
-        dates: "2002 - 2006",
-        title: "BA (Hons) Design",
-        company: "University of Michigan",
-        location: "United Kingdom, London"
+        dates: "2015 - 2017",
+        title: "AS Culinary Arts",
+        company: "Le Cordon Bleu College of Culinary Arts",
+        location: "Orlando, FL"
     }
 ];
 
