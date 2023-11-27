@@ -228,3 +228,13 @@ export const reviewsData = [
         text: `Progressively leverage existing 24/7 paradigms through exceptional process improvements. Completely revolutionize compelling architectures for team driven partnerships. Quickly transform focused value.`
     },
 ];
+
+export const contactData = {
+    street: "123 Main St",
+    city: "Mims",
+    state: "FL",
+    zip: "32754",
+    // phone: "(410) 808-7105",
+    mobile: "(410) 808-7105",
+    email: "dwernz@att.net"
+}
