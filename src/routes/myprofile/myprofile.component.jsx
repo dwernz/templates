@@ -1,6 +1,6 @@
 import Header from "./header/header.component";
 import { GlobalStyle, MainWrapper } from "./myprofile.styles";
-import { profile, myActivityData, workHistoryData, expertiseData, codingSkillsData, designToolsData, experienceData, educationData, marketplaceData, portfolioData, reviewsData } from './assets/data/profile.js';
+import { profile, myActivityData, workHistoryData, expertiseData, codingSkillsData, designToolsData, experienceData, educationData, marketplaceData, portfolioData, reviewsData, contactData } from './assets/data/profile.js';
 import Section from "./section/section.component.jsx";
 import MyActivity from "./my-activity/my-activity.component.jsx";
 import Expertise from "./expertise/expertise.component.jsx";
@@ -10,6 +10,8 @@ import Education from "./education/education.component.jsx";
 import Marketplace from "./marketplace/marketplace.component.jsx";
 import Portfolio from "./portfolio/portfolio.component.jsx";
 import Reviews from "./reviews/reviews.component.jsx";
+import Contact from "./contact/contact.component.jsx";
+import Footer from "./footer/footer.component.jsx";
 
 const MyProfile = () => {
     const {name, title, birthday, nationality, languages, text } = profile;
@@ -51,6 +53,10 @@ const MyProfile = () => {
             <Section>
                 <Reviews data={reviewsData} />
             </Section>
+            <Section>
+                <Contact data={contactData} />
+            </Section>
+            <Footer />
         </MainWrapper>
     )
 }
