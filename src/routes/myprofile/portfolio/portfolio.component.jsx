@@ -18,10 +18,10 @@ const Portfolio = ({ data }) => {
                     <Row>
                         {
                             data.map((portfolio) => (
-                                <ColMd4ColSm6>
+                                <ColMd4ColSm6 key={portfolio.title}>
                                     <PortfolioItem href='#'>
                                         <PortfolioThumb>
-                                            <img src={require(`../assets/images/${portfolio.img}`)} />
+                                            <img src={require(`../assets/images/${portfolio.img}`)} alt='portfolio picture'/>
                                         </PortfolioThumb>
                                         <PortfolioInfo>
                                             <h3>{portfolio.title}</h3>
