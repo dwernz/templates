@@ -4,7 +4,7 @@ import ColMd9 from "../../../components/bootstrap/colMd9/colMd9.component";
 import Container from "../../../components/bootstrap/container/container.component";
 import Row from "../../../components/bootstrap/row/row.component";
 import { SectionTitle } from "../section/section.styles";
-import { Media, MediaBody, MediaHeading, MediaLeft, MediaObject, MediaObjectLink, ProfileItem } from "./marketplace.styles";
+import { Media, MediaBody, MediaHeading, MediaLeft, MediaObject, ProfileItem } from "./marketplace.styles";
 
 
 const Marketplace = ({data}) => {    
