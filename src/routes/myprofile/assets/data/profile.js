@@ -156,4 +156,37 @@ export const marketplaceData = [
         title: 'Peopleperhour',
         text: 'Seamlessly formulate covalent outsourcing vis-a-vis virtual resources. Distinctively conceptualize.'
     }
-]
+];
+
+export const portfolioData = [
+    {
+        img: 'portfolio-1.jpg',
+        title: 'Creative Concepts',
+        domain: 'domain.com'
+    },
+    {
+        img: 'portfolio-2.jpg',
+        title: 'Customer Focuses',
+        domain: 'domain.com'
+    },
+    {
+        img: 'portfolio-3.jpg',
+        title: 'Management Methodology',
+        domain: 'domain.com'
+    },
+    {
+        img: 'portfolio-4.jpg',
+        title: 'Market Research',
+        domain: 'domain.com'
+    },
+    {
+        img: 'portfolio-5.jpg',
+        title: 'Market Research',
+        domain: 'domain.com'
+    },
+    {
+        img: 'portfolio-6.jpg',
+        title: 'Market Research',
+        domain: 'domain.com'
+    },
+];
