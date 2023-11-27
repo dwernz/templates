@@ -21,7 +21,7 @@ const Portfolio = ({ data }) => {
                                 <ColMd4ColSm6 key={portfolio.title}>
                                     <PortfolioItem href='#'>
                                         <PortfolioThumb>
-                                            <img src={require(`../assets/images/${portfolio.img}`)} alt='portfolio picture'/>
+                                            <img src={require(`../assets/images/${portfolio.img}`)} alt='portfolio'/>
                                         </PortfolioThumb>
                                         <PortfolioInfo>
                                             <h3>{portfolio.title}</h3>
