@@ -8,6 +8,10 @@ const Home = () => {
             <a href='/template'>Template</a>
             <br />
             <a href='/myprofile'>My Profile</a>
+            <br />
+            <a href='/resto'>Resto</a>
+            <br />
+            <a href='/thecafe'>The Cafe</a>
 
             <h1>Button Examples</h1>
             <p>These were styled after Bootstrap, and includes their predefined button styled.</p>

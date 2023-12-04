@@ -6,6 +6,8 @@ import Home from './routes/home/home.component';
 import Template from './routes/template/template.component';
 import ReturnToHome from './components/navbars/return-to-home/return-to-home.component';
 import MyProfile from './routes/myprofile/myprofile.component';
+import Resto from './routes/resto/resto.component';
+import TheCafe from './routes/the-cafe/the-cafe.component';
 
 const App = () => {
   return (
@@ -21,7 +23,8 @@ const App = () => {
           */}
           <Route path='template' element={<Template />} />
           <Route path='myprofile' element={<MyProfile />} />
-          
+          <Route path='resto' element={<Resto />} />
+          <Route path='thecafe' element={<TheCafe />} />
 
 
 
