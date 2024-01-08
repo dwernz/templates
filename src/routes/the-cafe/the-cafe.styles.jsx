@@ -56,6 +56,7 @@ export const GlobalStyle = createGlobalStyle`
         background-size: cover;
         background-image: url(${coffeehouse});
         min-height: 75%;
+        border: 1px solid red;
     }
 
     .menu {
@@ -80,11 +81,22 @@ export const W3Row = styled.div`
 
     .w3-padding {
         padding: 8px 16px;
-        font-size: 24px;
+        font-size: 100px;
     }
 
     .w3-black {
         color: #fff;
         background-color: #000;
+    }
+`;
+
+export const Header = styled.header`
+    
+    .bgimg {
+        background-position: center;
+        background-size: cover;
+        background-image: url(${coffeehouse});
+        min-height: 75%;
+        border: 1px solid red;
     }
 `;
